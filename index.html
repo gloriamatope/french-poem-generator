@@ -4,22 +4,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AI French Poem Generator</title>
+        <title>Poem Generator</title>
         <link rel="stylesheet" href="src/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     </head>
 
     <body>
         <div class="container">
             <header>
-                <h1>AI French Poem Generator </h1>
+                <h1>Poem Generator </h1>
             </header>
 
             <main>
                 <div class="form-container">
                     <form id="poem-generator-form">
-                        <input type="text" placeholder="Enter the topic of the French poem" autofocus required
+                        <input type="text" placeholder="Enter the topic of the poem?" autofocus required
                             autocomplete="off" class="instruction" id="user-instructions" />
                         <input type="submit" class="submit-button" />
                     </form>
